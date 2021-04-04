@@ -1,0 +1,454 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1249083000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T00:51:18.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8637047000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login with valid credentials using Login button",
+        "description": "",
+        "id": "login;login-with-valid-credentials-using-login-button",
+        "after": [
+          {
+            "result": {
+              "duration": 165391000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 312309000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 54
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_enter_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3276788000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on login button",
+            "match": {
+              "location": "step_definitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3030345000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that you are in login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.verify_that_you_are_in_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 604761000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T00:51:35.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1847080000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 133228000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 324543000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the \"tomsmith1\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith1\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 31
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3269767000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on login button",
+            "match": {
+              "location": "step_definitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30327000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the error message",
+            "match": {
+              "location": "step_definitions.LoginSteps.verify_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 523501000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T00:51:41.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1902762000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 136796000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 356616000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the \"tomsmith\" and \"SuperSecretPassword!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"SuperSecretPassword!123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3238462000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on login button",
+            "match": {
+              "location": "step_definitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29970000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the error message",
+            "match": {
+              "location": "step_definitions.LoginSteps.verify_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 616707000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-04T00:51:47.830Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1892464000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 135470000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 315811000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the \"tomsmith123\" and \"SuperSecretPassword!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith123\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"SuperSecretPassword!123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3229314000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on login button",
+            "match": {
+              "location": "step_definitions.LoginSteps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27028000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the error message",
+            "match": {
+              "location": "step_definitions.LoginSteps.verify_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I should be able the login to functionality",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
